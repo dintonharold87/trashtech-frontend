@@ -19,7 +19,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import FormHelperText from "@mui/material/FormHelperText";
-const API_URL = "http://localhost:2023"; // Replace with your backend server URL
+const API_URL = process.env.REACT_APP_BACKEND_URL;// Replace with your backend server URL
 
 const theme = createTheme({
   typography: {

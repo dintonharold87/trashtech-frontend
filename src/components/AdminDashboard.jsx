@@ -32,7 +32,7 @@ import FireTruckIcon from "@mui/icons-material/FireTruck";
 
 import MessageIcon from "@mui/icons-material/Message";
 
-const API_URL = "http://localhost:2023";
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 // import CoachListAdmin from "./CoachListAdmin";
 

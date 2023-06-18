@@ -10,7 +10,7 @@ import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
-const API_URL = "http://localhost:2023";
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const theme = createTheme({
   typography: {

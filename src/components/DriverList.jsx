@@ -8,7 +8,7 @@ import Button from "@mui/material/Button";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useNavigate } from "react-router-dom";
 import AddIcon from '@mui/icons-material/Add';
-const API_URL = "http://localhost:2023";
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const theme = createTheme({
   typography: {

@@ -11,8 +11,7 @@ import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-const API_URL = "http://localhost:2023";
-
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 const theme = createTheme({
   typography: {
     fontFamily: "Montserrat, sans-serif",
